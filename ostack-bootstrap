@@ -18,3 +18,17 @@ sudo apt-get -y update
 
 # install
 sudo apt-get -y install lxc-docker
+
+# install git
+sudo apt-get -y install git
+
+# get godeb
+mkdir godeb && cd godeb
+curl -L https://godeb.s3.amazonaws.com/godeb-amd64.tar.gz \
+    | tar zxf -
+./godeb install
+cd ..
+/bin/rm -rf godeb
+
+
+
