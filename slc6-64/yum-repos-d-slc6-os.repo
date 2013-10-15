@@ -1,0 +1,26 @@
+[slc6-os]
+name=Scientific Linux CERN 6 (SLC6) base system packages
+baseurl=http://linuxsoft.cern.ch/cern/slc6X/$basearch/yum/os/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
+gpgcheck=1
+enabled=1
+protect=1
+priority=5
+
+[slc6-os-source]
+name=Scientific Linux CERN 6 (SLC6) base system packages - source RPMs
+baseurl=http://linuxsoft.cern.ch/cern/slc6X/$basearch/yum/os-source/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
+gpgcheck=1
+enabled=0
+protect=1
+priority=5
+
+[slc6-os-debug]
+name=Scientific Linux CERN 6 (SLC6) base system packages - debuginfo RPMs
+baseurl=http://linuxsoft.cern.ch/cern/slc6X/$basearch/yum/os-debug/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
+gpgcheck=1
+enabled=0
+protect=1
+priority=5

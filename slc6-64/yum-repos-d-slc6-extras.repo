@@ -1,0 +1,26 @@
+[slc6-extras]
+name=Scientific Linux CERN 6 (SLC6) add-on packages, no formal support
+baseurl=http://linuxsoft.cern.ch/cern/slc6X/$basearch/yum/extras/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
+gpgcheck=1
+enabled=1
+protect=1
+priority=5
+
+[slc6-extras-source]
+name=Scientific Linux CERN 6 (SLC6) add-on packages, no formal support - source RPMS
+baseurl=http://linuxsoft.cern.ch/cern/slc6X/$basearch/yum/extras-source/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
+gpgcheck=1
+enabled=0
+protect=1
+priority=5
+
+[slc6-extras-debug]
+name=Scientific Linux CERN 6 (SLC6) add-on packages, no formal support - debuginfo RPMS
+baseurl=http://linuxsoft.cern.ch/cern/slc6X/$basearch/yum/extras-debug/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
+gpgcheck=1
+enabled=0
+protect=1
+priority=5

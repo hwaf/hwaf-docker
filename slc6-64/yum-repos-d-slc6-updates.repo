@@ -1,0 +1,26 @@
+[slc6-updates]
+name=Scientific Linux CERN 6 (SLC6) bugfix and security updates
+baseurl=http://linuxsoft.cern.ch/cern/slc6X/$basearch/yum/updates/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
+gpgcheck=1
+enabled=1
+protect=1
+priority=5
+
+[slc6-updates-source]
+name=Scientific Linux CERN 6 (SLC6) bugfix and security updates - source RPMs
+baseurl=http://linuxsoft.cern.ch/cern/slc6X/$basearch/yum/updates-source/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
+gpgcheck=1
+enabled=0
+protect=1
+priority=5
+
+[slc6-updates-debug]
+name=Scientific Linux CERN 6 (SLC6) bugfix and security updates - debug RPMs
+baseurl=http://linuxsoft.cern.ch/cern/slc6X/$basearch/yum/updates-debug/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
+gpgcheck=1
+enabled=0
+protect=1
+priority=5
